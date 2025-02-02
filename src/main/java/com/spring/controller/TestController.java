@@ -11,7 +11,7 @@ public class TestController {
 	@GetMapping("test")
 	public String getMethodName() {
 		System.out.println("Testing..");
-		return new String("Hello Spring2");
+		return new String("Hello Spring3");
 	}
 	
 
